@@ -1,0 +1,34 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------
+SPARK Analysis results        Total         Flow   CodePeer   Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------
+Data Dependencies                 8            8          .         .           .          .
+Flow Dependencies                 8            8          .         .           .          .
+Initialization                    1            1          .         .           .          .
+Non-Aliasing                      .            .          .         .           .          .
+Run-time Checks                   .            .          .         .           .          .
+Assertions                        .            .          .         .           .          .
+Functional Contracts              .            .          .         .           .          .
+LSP Verification                  .            .          .         .           .          .
+Termination                       .            .          .         .           .          .
+Concurrency                       .            .          .         .           .          .
+--------------------------------------------------------------------------------------------
+Total                            17    17 (100%)          .         .           .          .
+
+
+max steps used for successful proof: 0
+
+Analyzed 1 unit
+in unit plains, 10 subprograms and packages out of 10 analyzed
+  plains at plains.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.AddFuil at plains.ads:123 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.CalcAmountOfFuil at plains.ads:162 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.CloseDoor at plains.ads:102 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.Landing at plains.ads:152 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.LockDoor at plains.ads:109 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.OpenDoor at plains.ads:116 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.PlainPushback at plains.ads:130 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.StartEngine at plains.ads:137 flow analyzed (0 errors, 0 checks and 0 warnings)
+  plains.TakeOff at plains.ads:144 flow analyzed (0 errors, 0 checks and 0 warnings)

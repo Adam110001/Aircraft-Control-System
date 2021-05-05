@@ -1,0 +1,60 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U plains%b		plains.adb		c31e6c01 OO PK IL
+
+U plains%s		plains.ads		62b0159c OO PK IL
+
+D plains.ads		20210419164540 62b0159c plains%s
+D plains.adb		20210419165028 a1ae799d plains%b
+D system.ads		20200228061810 32a08138 system%s
+G a Z
+X 1 plains.ads
+1K9*plains 46l5 46e11 2|1b14 25l5 25t11
+4E9*DoorSt 4e43 11r19 15r24
+4n20*OPENED{4E9} 15r34 19r15 26r39 31r36 44r37 2|6r33 21r33
+4n28*CLOSED{4E9} 20r15 32r37 37r36 2|7r33 13r33
+4n36*LOCKED{4E9} 21r15 38r37 43r36 2|14r33 20r34
+5E9*ReadyToFly 5e30 21r29
+5n24*READY{5E9}
+6E9*NotReadyYet 6e42 20r29
+6n25*NOTREADYTOFLYYET{6E9}
+7E9*NotReadyToFly 7e36 19r29
+7n27*NOTREADY{7E9}
+9R9*PLain 13e14 26r15
+11e7*DoorStatus{4E9} 26m25 31r23 32r24 37r23 38r24 43r23 44r24 2|6r20 7m19
+. 13r20 14m19 20r21 21m19
+15R9*Door 15d15 24e14
+15e15*DoorStt{4E9} 17r12
+19e25*Op{7E9}
+20e25*Cl{6E9}
+21e25*Dl{5E9}
+26r4*Aircraft{9R9} 29r27 30r18 30r30 31r14 32r15 35r27 36r18 36r30 37r14
+. 38r15 41r27 42r18 42r30 43r14 44r15 2|6r11 7m10 13r11 14m10 20r12 21m10
+28U14*CloseDoor 2|4b14 9l8 9t17
+34U14*LockDoor 2|11b14 16l8 16t16
+40U14*OpenDoor 2|18b14 23l8 23t16
+
+QQ SPARKVERSION SPARK Community 2020 (20200429)
+GG EK_DIRECT_CALLS plains__closedoor 0
+GG EK_GLOBALS plains__closedoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 plains proper_proof_in 0 proper_input 1 plains__aircraft proper_output 1 plains__aircraft refined_proof_in 0 refined_input 1 plains__aircraft refined_output 1 plains__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 plains__aircraft LOCKS 0
+GG EK_DIRECT_CALLS plains__lockdoor 0
+GG EK_GLOBALS plains__lockdoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 plains proper_proof_in 0 proper_input 1 plains__aircraft proper_output 1 plains__aircraft refined_proof_in 0 refined_input 1 plains__aircraft refined_output 1 plains__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 plains__aircraft LOCKS 0
+GG EK_DIRECT_CALLS plains__opendoor 0
+GG EK_GLOBALS plains__opendoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 plains proper_proof_in 0 proper_input 1 plains__aircraft proper_output 1 plains__aircraft refined_proof_in 0 refined_input 1 plains__aircraft refined_output 1 plains__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 plains__aircraft LOCKS 0
+GG EK_DIRECT_CALLS plains 0
+GG EK_GLOBALS plains local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 1 plains__aircraft calls_proof 0 calls 0 calls_conditional 0 local_var 1 plains__aircraft FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE plains TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE plains__opendoor FALSE FALSE FALSE FALSE TRUE plains VISIBLE_PART
+GG EK_FLOW_SCOPE plains__lockdoor FALSE FALSE FALSE FALSE TRUE plains VISIBLE_PART
+GG EK_FLOW_SCOPE plains__closedoor FALSE FALSE FALSE FALSE TRUE plains VISIBLE_PART
+GG EK_END_MARKER

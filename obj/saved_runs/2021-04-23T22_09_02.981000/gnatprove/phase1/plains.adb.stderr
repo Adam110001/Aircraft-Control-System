@@ -1,0 +1,2 @@
+plains.adb:62:33: "=" should be ":="
+plains.adb:77:33: "=" should be ":="

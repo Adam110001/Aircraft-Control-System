@@ -1,0 +1,2 @@
+planes.adb:44:38: value not in range of type "Passangers" defined at planes.ads:41
+planes.adb:44:38: "Constraint_Error" would have been raised at run time

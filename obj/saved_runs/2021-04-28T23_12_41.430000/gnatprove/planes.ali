@@ -1,0 +1,237 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U planes%b		planes.adb		a3927145 OO PK IL
+
+U planes%s		planes.ads		6f5035a3 OO PK IL
+
+D planes.ads		20210428221234 6f5035a3 planes%s
+D planes.adb		20210428215814 ccc244e6 planes%b
+D system.ads		20200228061810 32a08138 system%s
+G a Z
+X 1 planes.ads
+1K9*planes 234l5 234e11 2|1b14 271l5 271t11
+5E9*ReadyToFly 5e30 66r29 76r27 77r30 78r29 79r30
+5n24*READY{5E9}
+6E9*NotReadyToFly 6e36 64r29 65r29 75r29
+6n27*NOTREADY{6E9}
+9E9*DoorSt 9e43 60r24 117r19
+9n20*OPENED{9E9} 60r34 64r15 133r39 139r36 155r37 160r36 168r36 2|6r33 22r33
+. 28r32 39r32
+9n28*CLOSED{9E9} 65r15 141r37 146r36 2|7r33 13r33
+9n36*LOCKED{9E9} 66r15 148r37 153r36 184r39 198r39 205r40 2|14r33 20r33 58r35
+. 76r35 85r35 173r35
+12E9*Flaps 12e47 110r19
+12n19*ZERO{12E9} 126r39 191r39 2|67r35 118r36 230r36
+12n25*ONE{12E9} 2|102r36 190r36
+12n30*TWO{12E9} 2|199r36
+12n35*THREE{12E9} 2|209r36
+12n42*FULL{12E9} 2|218r36
+15E9*Spoiler 15e35 111r22
+15n21*NORMAL{15E9} 127r42 191r73 2|67r69 229r39
+15n29*ARMED{15E9} 2|220r39
+18E9*PlaneDestination 18e36 92r28
+18n30*A{18E9} 92r48 96r15 2|141r40 241r22 259r22
+18n32*B{18E9} 97r15 122r47 2|147r40 244r25 261r25
+18n34*C{18E9} 98r15 2|153r40
+19E9*PlaneSt 19e60 71r39 116r19
+19n21*PARKED{19E9} 71r50 75r15 132r39 140r38 141r70 146r69 154r38 155r70
+. 176r74 183r74 192r37 2|13r66 20r66 49r70 57r70 68r33
+19n29*TAXI{19E9} 76r15 185r37 190r36 197r74 206r73 208r37 2|60r33 66r69 75r70
+. 228r36
+19n35*TAKEOFF{19E9} 77r15 2|88r33
+19n44*FLYING{19E9} 78r15 213r36 2|126r36 133r32
+19n52*LANDING{19E9} 79r15 222r73 2|97r36 143r39 149r39 155r39 161r36 175r33
+20E9*WarningLights 20e38 115r21
+20n27*GREEN{20E9} 131r41
+20n34*RED{20E9} 2|96r38 160r38 182r38
+21E9*PlaneLife 21e38 107r19
+21n23*ALIVE{21E9} 123r39
+21n30*CRUSHED{21E9} 2|165r36 186r36
+24I9*Altitude<short_integer> 109r12 125r32 206r33 222r33 2|87r29
+27I9*FromHubToA<short_short_integer> 96r27 2|241r28 243r38 259r28 260r61
+28I9*FromHubToB<short_integer> 97r27 122r59 2|244r31 246r36 261r31 262r61
+29I9*fromHubtoC<short_integer> 98r27 2|249r36 264r61
+30I9*fromHubToRunway<short_short_integer> 2|243r65 246r63 249r63
+31I9*Distan<short_integer> 108r25 124r45 214r46 215r44 216r43 224r42 231r61
+. 232r46 2|256r61 257r17 260r22 260r37 262r22 262r37 264r22 264r37
+32I9*NearestDest<short_short_integer>
+35I9*StartLandingDistance<short_integer>
+38I9*PlaneMinimumDistance<short_short_integer>
+41I9*Passangers<short_integer> 113r24 129r44 161r44 162r43 163r47 169r45
+. 170r43 171r47 2|29r35 31r41 40r35 42r41
+44I9*PassangerFuilCosumption<short_integer> 2|242r61 245r61 248r61
+47I9*Speed<short_integer> 112r19 128r39 223r36
+50E9*EngineRunning 50e35 88r20
+50n27*ON{50E9} 190r75 199r45 204r44 2|66r40 78r41 84r40 172r40
+50n31*OFF{50E9} 134r75 147r48 154r79 160r77 168r77 176r44 178r45 183r44 192r78
+. 197r44 2|21r44 28r73 39r73 49r40 57r40 69r41 75r40
+53E9*Gear 53e38 114r19
+53n18*LOWERED{53E9} 130r38 2|208r35
+53n27*NOTLOWERED{53E9} 2|109r35
+56I9*FuilPerMile<short_short_integer>
+57I9*FuilTank<integer> 87r14 134r44 177r40 205r75 207r41 213r70 228r56 229r41
+. 2|50r30 164r37 238r56 239r13 242r18 242r35 245r18 245r35 248r18 248r35
+58I9*LowFuilLevel<short_short_integer>
+60R9*Door 60d15 69e14
+60e15*DoorStt{9E9} 62r12
+64e25*Op{6E9}
+65e25*Cl{6E9}
+66e25*Dl{5E9}
+71R9*PlanePosition 71d24 83e14
+71e24*PlaneProgress{19E9} 73r12
+75e25*Pk{6E9}
+76e23*Tx{5E9}
+77e26*Tk{5E9}
+78e25*Fg{5E9}
+79e26*Lg{5E9}
+85R9*EngineFunc 90e14 118r15
+87i7*Fuil{57I9} 134m36 177r33 184r66 198r66 205r67 207r34 213r63 221r30 2|50r23
+. 51m26 59r29 77r29 86r29 95r29 105m29 105r53 113m29 113r53 121m29 121r53
+. 137r29 138m29 138r53 159r29 164r29 174r29 176m26 176r50 181r29 185r29 195m29
+. 195r53 204m29 204r53 214m29 214r53 224m29 224r53
+88e7*EngineState{50E9} 134m60 147r34 154r65 160r63 168r63 176r30 178r31 183r30
+. 190r61 192r64 197r30 199r31 204r30 2|21r30 28r59 39r59 49r26 57r26 66r26
+. 69m26 75r26 78m26 84r26 172r26
+92R9*Destination 92d22 102e14 106r19 228r36 231r41 2|238r36 256r41
+92e22*Dest{18E9} 94r12 122m39 2|141r33 147r33 153r33 241r15 244r18 259r15
+. 261r18
+96i20*DestA{27I9}
+97i20*DestB{28I9} 122m50
+98i20*DestC{29I9}
+104R9*PLane 120e14 122r15
+106r7*PlaneDest{92R9} 122m25 2|51r60 104r48 112r48 120r48 135r45 141r23 147r23
+. 153r23 178r45 194r48 203r48 213r48 223r48
+107e7*PlaneAlive{21E9} 123m25 2|165m22 186m22
+108i7*DiatanceTraveled{31I9} 124m25 214r27 215r24 216r23 224r23 2|103m22
+. 103r51 111m22 111r51 119m22 119r51 134m19 134r48 142r26 148r26 154r26 177m19
+. 177r48 193m22 193r51 202m22 202r51 212m22 212r51 222m22 222r51
+109i7*Alt{24I9} 125m25 206r27 222r27 2|87r22 100r22 101m22 101r38 108r22
+. 110m22 110r38 116r22 117m22 117r38 125r22 179m19 179r35 185r51 189r22 191m22
+. 191r38 198r22 200m22 200r38 207r22 210m22 210r38 217r22 219m22 219r38 227r22
+110e7*PlaneFlaps{12E9} 126m25 191r26 2|67r22 102m22 118m22 190m22 199m22
+. 209m22 218m22 230m22
+111e7*PlaneSpoilers{15E9} 127m25 191r57 2|67r53 220m22 229m22
+112i7*PlaneSpeed{47I9} 128m25 223r23 2|89m19 89r42 91r22 92m22 192m22 192r45
+. 201m22 201r45 211m22 211r45 221m22 231m22
+113i7*PlanePassangers{41I9} 129m25 161r26 162r24 163r28 169r27 170r24 171r28
+. 2|29r16 30m19 31r22 32m19 32r47 40r16 41m19 42r22 43m19 43r47
+114e7*PlaneGear{53E9} 130m25 2|109m22 208m22
+115e7*WarningLight{20E9} 131m25 2|96m22 160m22 182m22
+116e7*PlaneStage{19E9} 132m25 140r25 141r57 146r56 154r25 155r57 176r61 183r61
+. 185r24 190r23 192r24 197r61 206r60 208r24 213r23 222r60 2|13r53 20r53 49r57
+. 57r57 60m19 66r56 68m19 75r57 88m19 97m22 126m22 133r19 143m25 149m25 155m25
+. 161m22 175m19 228m22
+117e7*DoorStatus{9E9} 133m25 139r23 141r24 146r23 148r24 153r23 155r24 160r23
+. 168r23 184r26 198r26 205r27 2|6r20 7m19 13r20 14m19 20r20 22m19 28r19 39r19
+. 58r22 76r22 85r22 173r22
+118r7*Engine{85R9} 134m25 147r27 154r58 160r56 168r56 176r23 177r26 178r24
+. 183r23 184r59 190r54 192r57 197r23 198r59 199r24 204r23 205r60 207r27 213r56
+. 221r23 2|21r23 28r52 39r52 49r19 50r16 51m19 57r19 59r22 66r19 69m19 75r19
+. 77r22 78m19 84r19 86r22 95r22 105m22 105r46 113m22 113r46 121m22 121r46
+. 137r22 138m22 138r46 159r22 164r22 172r19 174r22 176m19 176r43 181r22 185r22
+. 195m22 195r46 204m22 204r46 214m22 214r46 224m22 224r46
+122r4*Aircraft{104R9} 137r27 138r18 138r30 139r14 140r16 141r15 141r48 144r27
+. 145r18 145r30 146r14 146r47 147r18 148r15 151r27 152r18 152r30 153r14 154r16
+. 154r49 155r15 155r48 158r27 159r18 159r30 160r14 160r47 161r17 162r15 163r19
+. 166r27 167r18 167r30 168r14 168r47 169r18 170r15 171r19 174r27 175r18 175r30
+. 176r14 176r52 177r17 178r15 181r27 182r18 182r30 183r14 183r52 184r17 184r50
+. 185r15 188r27 189r18 189r30 190r14 190r45 191r17 191r48 192r15 192r48 195r27
+. 196r18 196r30 197r14 197r52 198r17 198r50 199r15 202r27 203r18 203r30 204r14
+. 205r18 205r51 206r18 206r51 207r18 208r15 211r27 212r18 212r30 213r14 213r47
+. 214r18 215r15 216r14 219r27 220r18 220r30 221r14 222r18 222r51 223r14 224r14
+. 2|6r11 7m10 13r11 13r44 14m10 20r11 20r44 21r14 22m10 28r10 28r43 29r7
+. 30m10 31r13 32m10 32r38 39r10 39r43 40r7 41m10 42r13 43m10 43r38 49r10
+. 49r48 50r7 51m10 51r51 57r10 57r48 58r13 59r13 60m10 66r10 66r47 67r13
+. 67r44 68m10 69m10 75r10 75r48 76r13 77r13 78m10 84r10 85r13 86r13 87r13
+. 88m10 89m10 89r33 91r13 92m13 95r13 96m13 97m13 100r13 101m13 101r29 102m13
+. 103m13 103r42 104r39 105m13 105r37 108r13 109m13 110m13 110r29 111m13 111r42
+. 112r39 113m13 113r37 116r13 117m13 117r29 118m13 119m13 119r42 120r39 121m13
+. 121r37 125r13 126m13 133r10 134m10 134r39 135r36 137r13 138m13 138r37 141r14
+. 142r17 143m16 147r14 148r17 149m16 153r14 154r17 155m16 159r13 160m13 161m13
+. 164r13 165m13 172r10 173r13 174r13 175m10 176m10 176r34 177m10 177r39 178r36
+. 179m10 179r26 181r13 182m13 185r13 185r42 186m13 189r13 190m13 191m13 191r29
+. 192m13 192r36 193m13 193r42 194r39 195m13 195r37 198r13 199m13 200m13 200r29
+. 201m13 201r36 202m13 202r42 203r39 204m13 204r37 207r13 208m13 209m13 210m13
+. 210r29 211m13 211r36 212m13 212r42 213r39 214m13 214r37 217r13 218m13 219m13
+. 219r29 220m13 221m13 222m13 222r42 223r39 224m13 224r37 227r13 228m13 229m13
+. 230m13 231m13
+136U14*CloseDoor 2|4b14 9l8 9t17
+143U14*LockDoor 2|11b14 16l8 16t16
+150U14*OpenDoor 2|18b14 24l8 24t16
+157U14*AddPassanger 2|26b14 35l8 35t20
+165U14*RemovePassanger 2|37b14 45l8 45t23
+173U14*AddFuil 2|47b14 53l8 53t15
+180U14*PlanePushback 2|55b14 62l8 62t21
+187U14*ParkToGate 2|64b14 71l8 71t18
+194U14*StartEngine 2|73b14 80l8 80t19
+201U14*TakeOff 2|82b14 129l8 129t15
+210U14*Cruising 2|131b14 168l8 168t16
+218U14*Landing 2|170b14 234l8 234t15
+228V13*CalcAmountOfFuil{57I9} 228>30 229r14 2|51s34 238b13 254l8 254t24
+228r30 dest{92R9} 2|238b30 241r10 244r13
+231V13*CalcDistanceTravelled{31I9} 231>35 232r14 2|104s17 112s17 120s17 135s14
+. 178s14 194s17 203s17 213s17 223s17 256b13 269l8 269t29
+231r35 dest{92R9} 2|256b35 259r10 261r13
+X 2 planes.adb
+239i7 Fuil{1|57I9} 242m10 245m10 248m10 252r14
+257i7 Distance{1|31I9} 260m10 262m10 264m10 267r14
+
+QQ SPARKVERSION SPARK Community 2020 (20200429)
+GG EK_DIRECT_CALLS planes__closedoor 0
+GG EK_GLOBALS planes__closedoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__lockdoor 0
+GG EK_GLOBALS planes__lockdoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__opendoor 0
+GG EK_GLOBALS planes__opendoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__addpassanger 0
+GG EK_GLOBALS planes__addpassanger local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__removepassanger 0
+GG EK_GLOBALS planes__removepassanger local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__addfuil 1 planes__calcamountoffuil
+GG EK_GLOBALS planes__addfuil local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__planepushback 0
+GG EK_GLOBALS planes__planepushback local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__parktogate 0
+GG EK_GLOBALS planes__parktogate local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__startengine 0
+GG EK_GLOBALS planes__startengine local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__takeoff__2 1 planes__calcdistancetravelled
+GG EK_GLOBALS planes__takeoff__2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__cruising 1 planes__calcdistancetravelled
+GG EK_GLOBALS planes__cruising local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__landing__2 1 planes__calcdistancetravelled
+GG EK_GLOBALS planes__landing__2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 1 planes__aircraft proper_output 1 planes__aircraft refined_proof_in 0 refined_input 1 planes__aircraft refined_output 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 planes__aircraft LOCKS 0
+GG EK_DIRECT_CALLS planes__calcamountoffuil 0
+GG EK_GLOBALS planes__calcamountoffuil local FALSE E_FUNCTION FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS planes__calcdistancetravelled 0
+GG EK_GLOBALS planes__calcdistancetravelled local FALSE E_FUNCTION FALSE ORIGIN_FLOW 1 planes proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS planes 0
+GG EK_GLOBALS planes local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 1 planes__aircraft calls_proof 0 calls 0 calls_conditional 0 local_var 1 planes__aircraft FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE planes__cruising FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__planepushback FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__parktogate FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__landing__2 FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__startengine FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__calcamountoffuil FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__opendoor FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__takeoff__2 FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__lockdoor FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__addpassanger FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE planes__closedoor FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__removepassanger FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__addfuil FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_FLOW_SCOPE planes__calcdistancetravelled FALSE FALSE FALSE FALSE TRUE planes VISIBLE_PART
+GG EK_END_MARKER

@@ -1,0 +1,593 @@
+{
+  "spark": [
+    {
+      "name": "plains",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.CloseDoor",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 102
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.LockDoor",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 109
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.OpenDoor",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 116
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.AddFuil",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 123
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.PlainPushback",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 130
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.StartEngine",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 137
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.TakeOff",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 144
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.Landing",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 152
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "plains.CalcAmountOfFuil",
+      "sloc": [
+        {
+          "file": "plains.ads",
+          "line": 162
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "plains.ads",
+      "line": 153,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.Landing",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 152
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 154,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.Landing",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 152
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 117,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.OpenDoor",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 116
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 118,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.OpenDoor",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 116
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 110,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.LockDoor",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 109
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 111,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.LockDoor",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 109
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.adb",
+      "line": 81,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "plains.CalcAmountOfFuil",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 162
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 124,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.AddFuil",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 123
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 125,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.AddFuil",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 123
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 103,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.CloseDoor",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 104,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.CloseDoor",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 131,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.PlainPushback",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 130
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 132,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.PlainPushback",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 130
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 138,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.StartEngine",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 137
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 139,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.StartEngine",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 137
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 145,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.TakeOff",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 144
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "plains.ads",
+      "line": 146,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "plains.TakeOff",
+        "sloc": [
+          {
+            "file": "plains.ads",
+            "line": 144
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.Landing",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 152
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.OpenDoor",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.StartEngine",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.LockDoor",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 109
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.CalcAmountOfFuil",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 162
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "plains.CalcAmountOfFuil",
+            "sloc": [
+              {
+                "file": "plains.ads",
+                "line": 162
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.AddFuil",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 123
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.CloseDoor",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 102
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.PlainPushback",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "plains.TakeOff",
+          "sloc": [
+            {
+              "file": "plains.ads",
+              "line": 144
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "globals/properties (advanced)": 1.08379998710006E-03,
+    "flow analysis": 3.71870994567871E-02,
+    "marking": 6.86699990183115E-04,
+    "globals (basic)": 3.80899989977479E-04
+  }
+}

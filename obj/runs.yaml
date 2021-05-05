@@ -1,0 +1,14 @@
+'2021-05-05T15:16:13.541000':
+  category: GNATprove
+  files:
+  - C:\Users\Adam Dovciak\Desktop\SET10112\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Adam Dovciak\Desktop\SET10112\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-05T15:16:13.541000'

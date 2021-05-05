@@ -1,0 +1,38 @@
+Summary of SPARK analysis
+=========================
+
+----------------------------------------------------------------------------------------------
+SPARK Analysis results        Total        Flow   CodePeer      Provers   Justified   Unproved
+----------------------------------------------------------------------------------------------
+Data Dependencies                11          11          .            .           .          .
+Flow Dependencies                11          11          .            .           .          .
+Initialization                    2           2          .            .           .          .
+Non-Aliasing                      .           .          .            .           .          .
+Run-time Checks                  19           .          .    14 (CVC4)           .          5
+Assertions                        .           .          .            .           .          .
+Functional Contracts             12           .          .    11 (CVC4)           .          1
+LSP Verification                  .           .          .            .           .          .
+Termination                       .           .          .            .           .          .
+Concurrency                       .           .          .            .           .          .
+----------------------------------------------------------------------------------------------
+Total                            55    24 (44%)          .     25 (45%)           .    6 (11%)
+
+
+max steps used for successful proof: 1
+
+Analyzed 1 unit
+in unit plains, 14 subprograms and packages out of 14 analyzed
+  plains at plains.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  plains.AddFuil at plains.ads:165 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  plains.AddPassanger at plains.ads:149 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  plains.CalcAmountOfFuil at plains.ads:220 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  plains.CalcDistanceTravlled at plains.ads:223 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  plains.CloseDoor at plains.ads:128 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  plains.Cruising at plains.ads:200 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 1 checks out of 2 proved
+  plains.Landing at plains.ads:205 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 5 checks out of 10 proved
+  plains.LockDoor at plains.ads:135 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  plains.OpenDoor at plains.ads:142 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  plains.PlainPushback at plains.ads:172 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  plains.RemovePassanger at plains.ads:157 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  plains.StartEngine at plains.ads:179 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  plains.TakeOff at plains.ads:186 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (7 checks)

@@ -1,0 +1,4 @@
+plains.adb:58:39: medium: range check might fail (e.g. when Aircraft = (PlainDest => (Dest => A, others => ?), Alt => 13021, PlainGear => LOWERED, PlainStage => TAKEOFF, DoorStatus => LOCKED, Engine => (Fuil => 1, EngineState => ON)))[#1]
+plains.adb:73:39: medium: range check might fail (e.g. when Aircraft = (PlainDest => (Dest => A, others => ?), Alt => Altitude'First, PlainGear => LOWERED, PlainStage => LANDING, DoorStatus => LOCKED, Engine => (Fuil => 1, EngineState => ON)))[#2]
+plains.ads:158:14: medium: postcondition might fail, cannot prove Aircraft.PlainStage = TAKEOFF (e.g. when Aircraft = (PlainDest => (Dest => A, others => ?), Alt => 2021, PlainGear => LOWERED, PlainStage => LANDING, DoorStatus => LOCKED, Engine => (Fuil => 1, EngineState => ON)))[#3]
+plains.ads:163:14: medium: postcondition might fail, cannot prove CalcAmountOfFuil'Result <= FuilTank'first (e.g. when CalcAmountOfFuil'Result = 100)[#0]

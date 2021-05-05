@@ -1,0 +1,2 @@
+main.adb:135:16: expected type "Standard.Duration"
+main.adb:135:16: found type universal integer

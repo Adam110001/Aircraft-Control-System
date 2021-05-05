@@ -1,0 +1,2 @@
+planes.adb:237:07: missing "begin" for procedure "Crashed" at line 236
+planes.adb:241:03: missing "end if;" for "if" at line 237

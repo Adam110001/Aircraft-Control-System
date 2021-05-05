@@ -1,0 +1,2 @@
+plains.adb:28:80: missing operand
+plains.adb:32:03: missing "end if;" for "if" at line 28

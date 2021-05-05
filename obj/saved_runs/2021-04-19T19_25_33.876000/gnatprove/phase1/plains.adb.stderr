@@ -1,0 +1,10 @@
+plains.adb:1:14: missing body for "ReadyToTaxi" declared at plains.ads:66
+plains.ads:5:19: "READY" conflicts with declaration at line 5
+plains.ads:6:22: "NOTREADY" conflicts with declaration at line 6
+plains.ads:34:12: "PlainSte" is undefined
+plains.ads:69:34: invalid operand types for operator "="
+plains.ads:69:34: left operand has type "DoorSt" defined at line 9
+plains.ads:69:34: right operand has type "PlaintSt" defined at line 12
+plains.ads:70:35: invalid operand types for operator "="
+plains.ads:70:35: left operand has type "DoorSt" defined at line 9
+plains.ads:70:35: right operand has type "PlaintSt" defined at line 12
